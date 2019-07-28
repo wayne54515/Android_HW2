@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Name : "
+                android:ems="10"
+                android:id="@+id/editText1"
+                android:layout_width="160dp" />
+
+            <EditText
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/name"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Gender : "
+                android:ems="10"
+                android:id="@+id/editText2" />
+
+            <EditText
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/gender"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Birth : "
+                android:ems="10"
+                android:id="@+id/editText8"
+                android:layout_width="160dp" />
+
+            <EditText
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/birth"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Height : "
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:layout_width="160dp" />
+
+            <EditText
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/height"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Weight : "
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_width="160dp" />
+
+            <EditText
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/weight"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="BMI : "
+                android:ems="10"
+                android:id="@+id/editText6" />
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/bmi"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="BMR : "
+                android:ems="10"
+                android:id="@+id/editText7" />
+
+            <TextView
+                android:textSize="60px"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/bmr"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <Button
+                android:textSize="60px"
+                android:text="更新"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onUpdateClick"
+                android:id="@+id/button3"
+                android:layout_weight="1" />
+
+            <Button
+                android:textSize="60px"
+                android:text="返回"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:onClick="onBackClick"
+                android:id="@+id/button" />
+
+        </LinearLayout>
+
+        <Button
+            android:textSize="60px"
+            android:text="刪除資料"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:onClick="onDelClick"/>
+
+    </LinearLayout>
+</LinearLayout>
